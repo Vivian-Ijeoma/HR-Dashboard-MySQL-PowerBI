@@ -2,6 +2,10 @@
 ### Project Overview
 This project uses SQL and Power BI to create an interactive dashboard that analyzes key aspects of a company’s workforce, including demographics, job roles, and employment trends. The dashboard provides a comprehensive view of employee diversity, departmental distributions, tenure, and turnover, offering valuable insights for strategic workforce planning and HR decision-making.
 
+![HR employee report screenshot](https://github.com/user-attachments/assets/50e6124b-cc5c-4158-920c-c6dea1d07e7d)
+
+
+
 ### Objective
 The primary objective is to transform raw employee data into actionable insights that inform business decisions on workforce diversity, retention, and resource allocation. By analyzing data across gender, age, race/ethnicity, job roles, and locations, this dashboard enables HR leaders to track patterns in employee distribution, tenure, and headcount changes over time. The result is a powerful tool that supports informed decision-making to improve recruitment, retention, and overall workforce engagement.
 
@@ -48,3 +52,7 @@ In the initial data preparation phase, we performed the following tasks:
 ### Limitations
 - Negative Age Values: Records with negative age values (967 records) were excluded during data processing. Only ages 18 years and older were considered in the analysis.
 - Future Termination Dates: Termination dates that were set in the future (1599 records) were excluded from the analysis. Only termination dates on or before the current date were included.
+
+### Recommendations
+Monitor and Update Insights Regularly: Given the dynamic nature of workforce data, it’s important to continuously update the dashboard and analysis. This will ensure that HR decisions are based on the most up-to-date trends and patterns, helping the company remain proactive in managing its workforce.
+  
